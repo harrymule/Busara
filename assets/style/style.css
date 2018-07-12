@@ -1,0 +1,249 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    background-color: #ffffff;
+    font-family: "Tenor Sans", sans-serif;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt35 {
+    margin-top: 35px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.container-reset {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border: solid 1px #4478a0;
+    border-radius: 10px 10px;
+    padding: 25px 50px;
+}
+
+.login {
+    margin-top: 50px;
+    width: 450px;
+}
+
+.login-heading {
+    font: 1.8em/48px "Tenor Sans", sans-serif;
+    color: #4478a0;
+}
+
+.input-txt {
+    width: 100%;
+    padding: 20px 10px;
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: #ffffff;
+    border-bottom: 1px dotted #4478a0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.input-txt:-moz-placeholder {
+    color: #81aac9;
+}
+
+.input-txt:-ms-input-placeholder {
+    color: #81aac9;
+}
+
+.input-txt::-webkit-input-placeholder {
+    color: #81aac9;
+}
+
+.input-txt:focus {
+    background-color: #09AEC7;
+    color: #000000;
+}
+
+.login-footer {
+    margin: 10px 0;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    background: #ffffff;
+    color: #5D92BA;
+}
+
+.btn--right {
+    float: right;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon--min {
+    font-size: .9em;
+}
+
+.lnk {
+    font-size: .8em;
+    line-height: 3em;
+    color: white;
+    text-decoration: none;
+}

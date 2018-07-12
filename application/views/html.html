@@ -1,0 +1,17 @@
+<div class="row">
+        <div class="col-sm-4">
+            <div class="list-group">
+                <?php foreach ($data['users'] as $value) : ?>
+                    <a class='list-group-item' href="<?= base_url('index.php/Account/users/' . $value['id']); ?>"> 
+                    <?= ($value['names'] ? $value['names'] : $value['username']);  ?> </a>
+                <?php endforeach; ?>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class='row'>
+            <div class='row'>
+                
+                </div>
+            </div>
+        </div>
+    </div>

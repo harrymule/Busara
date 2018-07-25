@@ -39,7 +39,7 @@ step 4 : send the request
 
 ****************************************************************************************
 
-To get a user info using API
+<b>To get a user info using API</b>
 
 step 1 : Log in to get a user Token and a userID
 step 2 : GET request

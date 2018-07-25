@@ -32,9 +32,9 @@ step 2 : http://localhost/busara/index.php/api/login?username={admin}&password={
          eg. http://localhost/busara/index.php/api/login?username=admin&password=!Admin123
 step 3 : define the following headers
     example
-         Client-Service:frontend-client
-         Auth-key:ApiBusara
-         Content-Type:application/x-www-form-urlencoded
+         Client-Service:frontend-client\n
+         Auth-key:ApiBusara\n
+         Content-Type:application/x-www-form-urlencoded\n
 
 step 4 : send the request
 

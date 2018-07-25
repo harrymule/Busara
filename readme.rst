@@ -12,4 +12,8 @@ once done run the project i.e load it in your browser localhost/{projectName} eg
 
 sign up and log in to the application
 
+use new sql Busara(1).sql
+
+I've added new an API for Login, creating, editing and deleting users kindly check install.txt for more details on how to use it
+
 

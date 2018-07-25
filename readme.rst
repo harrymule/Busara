@@ -12,4 +12,6 @@ once done run the project i.e load it in your browser localhost/{projectName} eg
 
 sign up and log in to the application
 
+**check branch-patch-2 for working api**
+
 

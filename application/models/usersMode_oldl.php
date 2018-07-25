@@ -10,7 +10,6 @@ class usersModel extends CI_Model
         parent::__construct();
         $this->table = 'users';
         $this->load->model('fileModel', 'file');
-        $this->load->model('picturesModel', 'pictures');
     }
 
     function all()
@@ -39,18 +38,17 @@ class usersModel extends CI_Model
             unset($data['id']);
             $this->db->where($condition);
             $check = $this->db->update($this->table, $data);
-            return $check ? array('status' => 200,'message' => 'User Details updated Successfully.' ,'data' => $this->get($condition['id'])) : false;
+            return $check ? $this->get($condition['id']) : false;
         } else {
             return $this->add($data);
         }
     }
 
-
     function delete($id)
     {
         $this->db->where('id', $id);
-        $check = $this->db->delete($this->table);
-        return  $check ? array('status' => 200,'message' => 'User has been deleted.' ) : array('status' => 400,'message' => 'User NOT deleted.' ) ;
+        return $this->db->delete($this->table);
+
     }
 
     function last()
@@ -106,10 +104,6 @@ class usersModel extends CI_Model
     function user($user_id)
     {
         $user = $this->get($user_id);
-        //this function is not allowed to return password field or any other sensitive field
-        // if($user['password'] != ""){
-        //     unset($user['password']);
-        // }
         if (!$user) {
             return false;
         }
@@ -119,21 +113,8 @@ class usersModel extends CI_Model
         } else {
             $user['profile_pic'] = base_url('assets/uploads/user.jpg');
         }
-        return $user;
-    }
 
-    function getAllUsers() {
-        $me = $this->me();
-        $this->db->order_by("id", "DESC");
-        $users = $this->db->get($this->table)->result_array();
-        //if the users table has a user type field we filter 
-        // foreach ($users as $key => $user) {
-        //     $user_type = $this->user_type->get($user['user_type']);
-        //     foreach ($user_type as $label => $value) {
-        //         $users[$key]["user_type_" . $label] = $value;
-        //     }
-        // }
-        return $users;
+        return $user;
     }
 
     function reset_pic($id)

@@ -27,9 +27,13 @@ The API has a few headers that are needed for authentication purposes.
 **To login using API**
 
 step 1 : POST request
+
 step 2 : http://localhost/busara/index.php/api/login?username={admin}&password={!Admin123}  ******(link to the API)******
+
          here post your username & Password inside  curly brackets{}  and remove curly brackets{}
+	 
          eg. http://localhost/busara/index.php/api/login?username=admin&password=!Admin123
+	 
 step 3 : define the following headers
 
     example

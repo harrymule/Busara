@@ -16,6 +16,7 @@ use new sql Busara(1).sql
 
 I've added new an API for Login, creating, editing and deleting users kindly check below for more details on how to use it
 
+*******see also install.txt*******
 
 How to go about with the API
 
@@ -39,7 +40,7 @@ step 4 : send the request
 
 ****************************************************************************************
 
-<b>To get a user info using API</b>
+**To get a user info using API**
 
 step 1 : Log in to get a user Token and a userID
 step 2 : GET request

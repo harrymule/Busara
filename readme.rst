@@ -24,7 +24,7 @@ you can use Postman to test the api
 
 The API has a few headers that are needed for authentication purposes.
 
-To login using API
+**To login using API**
 
 step 1 : POST request
 step 2 : http://localhost/busara/index.php/api/login?username={admin}&password={!Admin123}  ******(link to the API)******
@@ -59,7 +59,7 @@ step 5 : send the request
 
 ****************************************************************************************
 
-To get a users info using API
+**To get a users info using API**
 
 step 1 : Log in to get a user Token and a userID
 step 2 : GET request
@@ -78,7 +78,7 @@ step 5 : send the request
 
 ****************************************************************************************
 
-To create a user using API
+**To create a user using API**
 
 step 1 : Log in to get a user Token and a userID
 step 2 : POST request
@@ -106,7 +106,7 @@ step 6 : send the request
 
 ****************************************************************************************
 
-To update a user using API
+**To update a user using API**
 
 step 1 : Log in to get a user Token and a userID
 step 2 : PUT request
@@ -137,7 +137,7 @@ step 6 : send the request
 
 ****************************************************************************************
 
-To delete a user using API
+**To delete a user using API**
 
 step 1 : Log in to get a user Token and a userID
 step 2 : DELETE request
